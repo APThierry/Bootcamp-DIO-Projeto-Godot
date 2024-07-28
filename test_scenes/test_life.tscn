@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bg3ygs21o3wcx"]
+
+[ext_resource type="PackedScene" uid="uid://u5pk0jm4lm00" path="res://player/player.tscn" id="1_qjchp"]
+[ext_resource type="PackedScene" uid="uid://bi88ehqlvsu5a" path="res://misc/bife.tscn" id="2_juyii"]
+
+[node name="TestLife" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_qjchp")]
+position = Vector2(160, 203)
+
+[node name="Bife" parent="." instance=ExtResource("2_juyii")]
+position = Vector2(513, 178)

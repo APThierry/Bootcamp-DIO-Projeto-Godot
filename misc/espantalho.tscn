@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://tynnwjaxpmqm"]
+
+[ext_resource type="Texture2D" uid="uid://bi102ugxnghja" path="res://addons/Tiny Swords/Deco/18.png" id="1_n7mvs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o78yu"]
+radius = 12.0
+
+[node name="Espantalho" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, -66)
+texture = ExtResource("1_n7mvs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -10)
+shape = SubResource("CircleShape2D_o78yu")

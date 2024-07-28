@@ -1,0 +1,69 @@
+[gd_scene load_steps=14 format=3 uid="uid://bnxivnptmmth1"]
+
+[ext_resource type="Texture2D" uid="uid://d3h740rta6lkr" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Blue.png" id="1_v7g5f"]
+[ext_resource type="Texture2D" uid="uid://c2wwlh1lddwk" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Construction.png" id="2_4f4ge"]
+[ext_resource type="Texture2D" uid="uid://c8il6hwsxrm5o" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Destroyed.png" id="3_m7kul"]
+[ext_resource type="Texture2D" uid="uid://byshhagr4tmfc" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Purple.png" id="4_bka3x"]
+[ext_resource type="Texture2D" uid="uid://ditv0e7c3uegg" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Red.png" id="5_6q1ff"]
+[ext_resource type="Texture2D" uid="uid://j1s7ew6vuxpi" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Yellow.png" id="6_e8b7t"]
+[ext_resource type="Texture2D" uid="uid://de8gyvtal2130" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="7_rd61s"]
+[ext_resource type="Texture2D" uid="uid://b2yw30d8c24sf" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_All.png" id="8_piaok"]
+[ext_resource type="Texture2D" uid="uid://ih7ipmy7gvi3" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_Bouncing.png" id="9_6kl7e"]
+[ext_resource type="Texture2D" uid="uid://85cbru81p8v1" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_Idle.png" id="10_ik4ol"]
+[ext_resource type="Texture2D" uid="uid://b8l4yl84wajry" path="res://addons/Tiny Swords/Resources/Resources/M_Spawn.png" id="11_nacc5"]
+[ext_resource type="Texture2D" uid="uid://432squs2i4hn" path="res://addons/Tiny Swords/UI/Banners/Banner_Horizontal.png" id="12_n7tbl"]
+[ext_resource type="Texture2D" uid="uid://vhlh78bgjk7f" path="res://addons/Tiny Swords/UI/Ribbons/Ribbon_Blue_3Slides.png" id="13_a1e7r"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CastleBlue" type="Sprite2D" parent="."]
+position = Vector2(171, 90)
+texture = ExtResource("1_v7g5f")
+
+[node name="CastleConstruction" type="Sprite2D" parent="."]
+position = Vector2(167, 320)
+texture = ExtResource("2_4f4ge")
+
+[node name="CastleDestroyed" type="Sprite2D" parent="."]
+position = Vector2(522, 327)
+texture = ExtResource("3_m7kul")
+
+[node name="CastlePurple" type="Sprite2D" parent="."]
+position = Vector2(530, 93)
+texture = ExtResource("4_bka3x")
+
+[node name="CastleRed" type="Sprite2D" parent="."]
+position = Vector2(1259, 101)
+texture = ExtResource("5_6q1ff")
+
+[node name="CastleYellow" type="Sprite2D" parent="."]
+position = Vector2(896, 96)
+texture = ExtResource("6_e8b7t")
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(613, 1225)
+texture = ExtResource("7_rd61s")
+
+[node name="HappySheepAll" type="Sprite2D" parent="."]
+position = Vector2(1764, 623)
+texture = ExtResource("8_piaok")
+
+[node name="HappySheepBouncing" type="Sprite2D" parent="."]
+position = Vector2(1629, 827)
+texture = ExtResource("9_6kl7e")
+
+[node name="HappySheepIdle" type="Sprite2D" parent="."]
+position = Vector2(1758, 915)
+texture = ExtResource("10_ik4ol")
+
+[node name="MSpawn" type="Sprite2D" parent="."]
+position = Vector2(1702, 1035)
+texture = ExtResource("11_nacc5")
+
+[node name="BannerHorizontal" type="Sprite2D" parent="."]
+position = Vector2(1640, 1380)
+texture = ExtResource("12_n7tbl")
+
+[node name="RibbonBlue3Slides" type="Sprite2D" parent="."]
+position = Vector2(1891, 1384)
+texture = ExtResource("13_a1e7r")
